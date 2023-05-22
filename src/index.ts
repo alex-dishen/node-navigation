@@ -5,11 +5,11 @@ const app = express();
 const port = 3000;
 
 app.get('/', async (req, res) => {
-  res.send(await readFile('public/index.html', 'utf8'));
+  res.status(200).send(await readFile('public/index.html', 'utf8'));
 });
 
 app.get('/about', async (req, res) => {
-  res.send(await readFile('public/about.html', 'utf8'));
+  res.status(200).send(await readFile('public/about.html', 'utf8'));
 });
 
 app.get('/contact', async (req, res) => {
