@@ -28,4 +28,5 @@ And follow this link in your browser:
 ```
 
 ## **Navigation**
-* See my previous project [Portfolio](https://github.com/alex-dishen/portfolio)
+* See my previous project [Swipi Landing](https://github.com/midstem/swipi-landing)
+<!-- * See my next project []() -->
